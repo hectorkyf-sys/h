@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Address Book</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Address Book</h1>
+
+    <div class="form">
+      <input type="text" id="name" placeholder="Name" />
+      <input type="text" id="phone" placeholder="Phone" />
+      <input type="email" id="email" placeholder="Email" />
+      <input type="text" id="street" placeholder="Street" />
+      <input type="text" id="state" placeholder="State" />
+      <input type="text" id="postcode" placeholder="Postcode" />
+      <textarea id="description" placeholder="Description"></textarea>
+
+      <button onclick="addContact()">Add Contact</button>
+    </div>
+
+    <hr />
+
+    <input
+      type="text"
+      id="search"
+      placeholder="Search by name"
+      onkeyup="searchContact()"
+    />
+
+    <div id="contactList"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
