@@ -54,13 +54,8 @@ This ensures data remains available even after refreshing the page.
 
 ## Screenshots
 
-![Address Book Application](SC1.png)(SC2.png)
-
----
-
-## Demo
-
-(Optional: Add video link if available)
+![Address Book Application](SC1.png)
+![Address Book Application](SC2.png)
 
 ---
 
